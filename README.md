@@ -1,16 +1,25 @@
-# teste_betalent
+# App Teste BeTalent
+ 
+ O projeto foi realizado a partir do desafio proposto pela equipe da BeTalent, o qual consistia em criar as telas apresentadas no [Figma](https://www.figma.com/design/Lpdera6rS8SztMUAwzkpN0/Teste-T%C3%A9cnico-Mobile-BeTalent?node-id=1-3&node-type=canvas&t=iLM9RwXWEJ7DSDcL-0).
+ 
+  ## Detalhes do Desenvolvimento:
+  * Versão Flutter `3.22.2`
+  * Dart `null safety`
+  * Chamadas HTTP `Dio`
+  * Injeção de Dependências `Provider`
+  * Gerencimanto de Estado `Value Notifier` e `State Pattern`
+  
 
-A new Flutter project.
+  ## Resultado Final:
+  
+ <p align="left">
+ <img  width="300"  src="assets/readme/app_teste_betalent.gif">
+ </p>
+ 
+ ## Rodar o Projeto
+ ### Android
+ Para rodar no Emulador Android é necessário configurá-lo para usar o Proxy com o Host name `10.0.2.2` e Porta `8080`.
+ ### IOS
+ Para roda no Simulador IOS não é necessário nenhuma configuração adicional.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
