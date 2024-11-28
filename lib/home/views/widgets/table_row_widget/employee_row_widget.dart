@@ -24,7 +24,6 @@ class _EmployeeRowWidgetState extends State<EmployeeRowWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // height: 60.0,
       padding: const EdgeInsets.only(
         left: 16.0,
         top: 13.5,
