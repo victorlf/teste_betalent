@@ -9,9 +9,9 @@ import 'http_response.dart';
 class HttpClient {
   final _dio = Dio(
     BaseOptions(
-      baseUrl: EndPoint.baseUrl,
-      connectTimeout: const Duration(minutes: 1),
-      receiveTimeout: const Duration(minutes: 1),
+      baseUrl: EndPoint().baseUrl,
+      connectTimeout: const Duration(seconds: 30),
+      receiveTimeout: const Duration(seconds: 30),
     ),
   );
 
